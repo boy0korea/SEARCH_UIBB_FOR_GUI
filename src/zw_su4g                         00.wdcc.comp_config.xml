@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OVP_COMPONENT" ConfId="ZW_SU4G" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OVP_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <TITLE Transl="true"/>
+     <EDIT_MODE/>
+     <SCROLLING_MODE/>
+     <PERSONALIZATION_ENABLED/>
+     <HELP_ENABLED/>
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE>N</TRANSIENT_STATE>
+       <MAXIMUM_MESSAGES_SIZE>0</MAXIMUM_MESSAGES_SIZE>
+       <SHOW_MESSAGE_LOG>X</SHOW_MESSAGE_LOG>
+       <FPM_MESSAGE_AREA_DISPLAY>1</FPM_MESSAGE_AREA_DISPLAY>
+      </Item>
+     </Node>
+     <Node Name="CONTENT_AREA" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID>PAGE_1</ID>
+       <TYPE>MAIN</TYPE>
+       <TITLE Transl="true"/>
+       <DEFAULT>X</DEFAULT>
+       <EXPLANATION_TEXT Transl="true"/>
+       <EXPLANATION_DOCUMENT/>
+       <DLG_NAME/>
+       <DLG_BUTTON_SET>0</DLG_BUTTON_SET>
+       <DLG_TOOLTIP_FOR_OK_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CANCEL_BUTTON Transl="true"/>
+       <DLG_TOOLTIP_FOR_CLOSE_BUTTON Transl="true"/>
+       <ACTION_TYPE_PERS_DIALOG>0</ACTION_TYPE_PERS_DIALOG>
+       <ACTION_TYPE_DRAG_DROP_AB>0</ACTION_TYPE_DRAG_DROP_AB>
+       <ON_ENTER_ACTION_ID>ACTION_ID_3</ON_ENTER_ACTION_ID>
+       <TITLE_HIDDEN>X</TITLE_HIDDEN>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID>SECTION_1</ID>
+         <LAYOUT_TYPE/>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <STACKED/>
+           <ROWS>0</ROWS>
+           <COLUMN_ID>COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_E04F4306E0601EDEA69515359DDD09E9</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>SEARCH_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_SEARCH_UIBB</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE/>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <CONFIG_ID>ZU_SU4G</CONFIG_ID>
+           <TITLE Transl="true"/>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_E04F4306E0601EDEA69515E26A1449EB</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>W_MAIN</INTERFACE_VIEW>
+           <INDEX>2</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE/>
+           <COMPONENT>ZWD_SU4G</COMPONENT>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">EXPANDALL</ELEMENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>1</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <IMAGE>~Icon/ExpandAll</IMAGE>
+           <IMAGE_IS_DECORATIVE/>
+           <TOOLTIP Transl="true"/>
+           <EXPLANATION_TEXT Transl="true"/>
+           <ALIGNMENT>LEFT</ALIGNMENT>
+           <HAS_SEPARATOR/>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ACTION_ID_2</ACTION_ID>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">COLLAPSEALL</ELEMENT_ID>
+           <TEXT Transl="true"/>
+           <INDEX>2</INDEX>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <IMAGE>~Icon/CollapseAll</IMAGE>
+           <IMAGE_IS_DECORATIVE/>
+           <ALIGNMENT>LEFT</ALIGNMENT>
+           <ENABLED>X</ENABLED>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">ACTION_ID_1</ACTION_ID>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="PERSONALIZATION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="P_CONTENT_AREA" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="WIRE_MODEL" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSACTION/>
+       <Node Name="WIRE" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="ACTION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">ACTION_ID_3</ID>
+       <EVENT_ID/>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000002" SimpleFormat="true">
+       <ID Final="5 ">ACTION_ID_1</ID>
+       <EVENT_ID>COLLAPSEALL</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+      <Item Index="000003" SimpleFormat="true">
+       <ID Final="5 ">ACTION_ID_2</ID>
+       <EVENT_ID>EXPANDALL</EVENT_ID>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="APP_SPECIFIC_CC" SimpleFormat="true"/>
+     <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+     <Node Name="MSG_MAPPER_SETTING" SimpleFormat="true"/>
+     <Node Name="PAGE_SELECTOR" SimpleFormat="true"/>
+     <Node Name="AMC_BINDING" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>
