@@ -384,6 +384,11 @@ CLASS ZCL_SU4G IMPLEMENTATION.
         " FPM:SEARCH -> SAPEVENT:ZSEARCH
         CONCATENATE LINES OF postdata INTO lv_string.
         lv_string = lv_string+7.
+        " 특수문자 3개 처리 &=?
+        " CL_GUI_HTML_VIEWER->TRANSLATE_QUERY_STRING
+        REPLACE ALL OCCURRENCES OF '%26' IN lv_string WITH '&'.
+        REPLACE ALL OCCURRENCES OF '%3D' IN lv_string WITH '='.
+        REPLACE ALL OCCURRENCES OF '%3F' IN lv_string WITH '?'.
 
         /ui2/cl_json=>deserialize(
           EXPORTING
